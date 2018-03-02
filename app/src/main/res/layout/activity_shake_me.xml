@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/irongrip"
+    tools:context="shaketaunt.mobile.mypapit.net.shaketaunt.ShakeMe">
+
+   <TextView
+       android:id="@+id/tvStatus"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       android:fontFamily="sans-serif-light"
+       android:text="@string/startup"
+       android:textColor="#ffffff"
+       android:textSize="36sp" />
+
+   <com.google.android.gms.ads.AdView
+       xmlns:ads="http://schemas.android.com/apk/res-auto"
+       android:id="@+id/adView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true"
+       ads:adSize="SMART_BANNER"
+       ads:adUnitId="@string/banneradmob">
+   </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
+
+

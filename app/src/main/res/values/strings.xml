@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shake Me!</string>
+    <string name="startup">Just Shake Me!</string>
+    <string name="help">About</string>
+    <string name="copyright">Copyright   &#169; 2018 Mohammad Hafiz bin Ismail (mypapit@gmail.com)</string>
+    <string name="admobid">ca-app-pub-3163716613766876~4359581873</string>
+    <string name="banneradmob">ca-app-pub-3163716613766876/2854928515</string>
+    <string name="interadmob">ca-app-pub-3163716613766876/6411030146</string>
+</resources>
