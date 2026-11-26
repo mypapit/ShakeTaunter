@@ -1,9 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Shake Me!</string>
     <string name="startup">Just Shake Me!</string>
     <string name="help">About</string>
-    <string name="copyright">Copyright   &#169; 2018 Mohammad Hafiz bin Ismail (mypapit@gmail.com)</string>
-    <string name="admobid">ca-app-pub-3163716613766876~4359581873</string>
-    <string name="banneradmob">ca-app-pub-3163716613766876/2854928515</string>
-    <string name="interadmob">ca-app-pub-3163716613766876/6411030146</string>
+    <string name="copyright">Copyright &#169; 2018-2026 Mohammad Hafiz bin Ismail (mypapit@gmail.com)</string>
+    <string name="action_shake">Shake Me</string>
+    <string name="action_replay">Replay</string>
+    <string name="action_mute">Mute speech</string>
+    <string name="action_unmute">Unmute speech</string>
+    <string name="hint_shake_or_tap">Shake your phone or tap below for a taunt</string>
+    <string name="hint_tap_only">No accelerometer detected — tap below for a taunt</string>
+    <string name="about_title">About Shake Me!</string>
+    <string name="about_description">A playful app that taunts you aloud whenever you shake your device.</string>
+    <string name="about_license">Licensed under the 2-Clause BSD License.</string>
+    <string name="about_source_code">GitHub</string>
+    <string name="about_version_format">Version %1$s</string>
+    <string name="action_close">Close</string>
+
+    <plurals name="shake_count">
+        <item quantity="one">%d shake</item>
+        <item quantity="other">%d shakes</item>
+    </plurals>
 </resources>
